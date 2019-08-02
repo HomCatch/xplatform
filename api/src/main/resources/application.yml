@@ -1,0 +1,10 @@
+spring:
+  activemq:
+        user: admin
+        password: admin
+        broker-url: tcp://localhost:61616
+#        默认值为true，表示无需安装ActiveMQ的服务器，直接使用内存。
+        in-memory: true
+        pool:
+#        通过连接池的方式连接。
+          enabled: true

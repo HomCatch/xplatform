@@ -1,0 +1,572 @@
+2019-05-22 10:57:05,553 - Log4JLogChute initialized using file 'velocity.log'
+2019-05-22 10:57:05,554 - Initializing Velocity, Calling init()...
+2019-05-22 10:57:05,554 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-05-22 10:57:05,554 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-05-22 10:57:05,554 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-05-22 10:57:05,554 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/Priority).  Falling back to next log system...
+2019-05-22 10:57:05,554 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 10:57:05,554 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 10:57:05,560 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,583 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-05-22 10:57:05,587 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-05-22 10:57:05,589 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-05-22 10:57:05,590 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-05-22 10:57:05,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-05-22 10:57:05,592 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-05-22 10:57:05,592 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-05-22 10:57:05,594 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-05-22 10:57:05,595 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-05-22 10:57:05,596 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-05-22 10:57:05,645 - Created '20' parsers.
+2019-05-22 10:57:05,648 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-05-22 10:57:05,650 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-05-22 10:57:05,650 - Velocimacro : Default library not found.
+2019-05-22 10:57:05,650 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-05-22 10:57:05,650 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-05-22 10:57:05,651 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-05-22 10:57:05,651 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-05-22 10:57:05,680 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,818 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,887 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,914 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,922 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,924 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 10:57:05,924 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 10:57:05,925 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 10:57:05,925 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 10:57:05,925 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 10:57:05,925 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 10:57:05,925 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 10:57:05,925 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 10:57:05,925 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 10:57:05,925 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 10:57:05,936 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,941 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,951 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,983 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,984 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-05-22 10:57:05,984 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-05-22 10:57:05,984 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-05-22 10:57:05,984 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-05-22 10:57:05,986 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:05,999 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 10:57:06,001 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-05-22 10:57:06,001 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-05-22 10:57:06,001 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-05-22 11:02:47,060 - Log4JLogChute initialized using file 'velocity.log'
+2019-05-22 11:02:47,060 - Log4JLogChute initialized using file 'velocity.log'
+2019-05-22 11:02:47,060 - Initializing Velocity, Calling init()...
+2019-05-22 11:02:47,060 - Initializing Velocity, Calling init()...
+2019-05-22 11:02:47,060 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-05-22 11:02:47,060 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-05-22 11:02:47,060 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-05-22 11:02:47,060 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-05-22 11:02:47,060 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-05-22 11:02:47,060 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-05-22 11:02:47,060 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-05-22 11:02:47,060 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-05-22 11:02:47,061 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 11:02:47,061 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 11:02:47,061 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 11:02:47,061 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-22 11:02:47,061 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,061 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,061 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-05-22 11:02:47,061 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-05-22 11:02:47,061 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-05-22 11:02:47,062 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-05-22 11:02:47,062 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-05-22 11:02:47,062 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-05-22 11:02:47,062 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-05-22 11:02:47,062 - Created '20' parsers.
+2019-05-22 11:02:47,062 - Created '20' parsers.
+2019-05-22 11:02:47,062 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-05-22 11:02:47,062 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-05-22 11:02:47,064 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-05-22 11:02:47,064 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-05-22 11:02:47,064 - Velocimacro : Default library not found.
+2019-05-22 11:02:47,064 - Velocimacro : Default library not found.
+2019-05-22 11:02:47,064 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-05-22 11:02:47,064 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-05-22 11:02:47,064 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-05-22 11:02:47,064 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-05-22 11:02:47,064 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-05-22 11:02:47,064 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-05-22 11:02:47,064 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-05-22 11:02:47,064 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-05-22 11:02:47,064 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,064 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,084 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,084 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,089 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,089 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,098 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,098 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,104 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,104 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,106 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,107 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-05-22 11:02:47,110 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,110 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,113 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,113 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,117 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,117 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,120 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,120 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-05-22 11:02:47,121 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-05-22 11:02:47,122 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,122 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,125 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,125 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-05-22 11:02:47,126 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-05-22 11:02:47,126 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-05-22 11:02:47,127 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-05-22 11:02:47,127 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-05-22 11:02:47,127 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-05-22 11:02:47,127 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-01 14:54:13,261 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-01 14:54:13,275 - Initializing Velocity, Calling init()...
+2019-07-01 14:54:13,275 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-01 14:54:13,275 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-01 14:54:13,275 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-01 14:54:13,275 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/Priority).  Falling back to next log system...
+2019-07-01 14:54:13,275 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-01 14:54:13,275 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-01 14:54:13,278 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,287 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-01 14:54:13,289 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-01 14:54:13,290 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-01 14:54:13,291 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-01 14:54:13,291 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-01 14:54:13,292 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-01 14:54:13,292 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-01 14:54:13,294 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-01 14:54:13,294 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-01 14:54:13,295 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-01 14:54:13,319 - Created '20' parsers.
+2019-07-01 14:54:13,322 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-01 14:54:13,324 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-01 14:54:13,324 - Velocimacro : Default library not found.
+2019-07-01 14:54:13,324 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-01 14:54:13,324 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-01 14:54:13,324 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-01 14:54:13,324 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-01 14:54:13,336 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,371 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,392 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,409 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,421 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,424 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,424 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,424 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,424 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,425 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,425 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,425 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,425 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,425 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,425 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,426 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-01 14:54:13,426 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-01 14:54:13,434 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,439 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,443 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,461 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,462 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-01 14:54:13,462 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-01 14:54:13,462 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-01 14:54:13,462 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-01 14:54:13,464 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,468 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-01 14:54:13,469 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-01 14:54:13,469 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-01 14:54:13,469 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 15:25:01,879 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 15:25:01,890 - Initializing Velocity, Calling init()...
+2019-07-17 15:25:01,890 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 15:25:01,890 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 15:25:01,890 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 15:25:01,890 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/Priority).  Falling back to next log system...
+2019-07-17 15:25:01,890 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:01,890 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:01,895 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:01,904 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 15:25:01,908 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 15:25:01,908 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 15:25:01,909 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 15:25:01,909 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 15:25:01,910 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 15:25:01,911 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 15:25:01,912 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 15:25:01,913 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 15:25:01,913 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 15:25:01,938 - Created '20' parsers.
+2019-07-17 15:25:01,941 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 15:25:01,943 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 15:25:01,943 - Velocimacro : Default library not found.
+2019-07-17 15:25:01,943 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 15:25:01,943 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 15:25:01,944 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 15:25:01,944 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 15:25:01,973 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,114 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,145 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,162 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,178 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,180 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:02,180 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:02,181 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:02,181 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:02,181 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:02,181 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:02,182 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:02,182 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:02,182 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:02,182 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:02,194 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,205 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,218 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,249 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,250 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:02,251 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:02,251 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:02,251 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 15:25:02,252 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,261 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:02,263 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 15:25:02,263 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 15:25:02,263 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 15:25:18,159 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 15:25:18,159 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 15:25:18,159 - Initializing Velocity, Calling init()...
+2019-07-17 15:25:18,159 - Initializing Velocity, Calling init()...
+2019-07-17 15:25:18,159 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 15:25:18,159 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 15:25:18,159 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 15:25:18,159 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 15:25:18,159 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 15:25:18,159 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 15:25:18,159 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-07-17 15:25:18,159 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-07-17 15:25:18,159 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:18,159 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:18,159 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:18,159 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 15:25:18,159 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,159 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,160 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 15:25:18,160 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 15:25:18,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 15:25:18,161 - Created '20' parsers.
+2019-07-17 15:25:18,161 - Created '20' parsers.
+2019-07-17 15:25:18,161 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 15:25:18,161 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 15:25:18,162 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 15:25:18,162 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 15:25:18,162 - Velocimacro : Default library not found.
+2019-07-17 15:25:18,162 - Velocimacro : Default library not found.
+2019-07-17 15:25:18,162 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 15:25:18,162 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 15:25:18,162 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 15:25:18,162 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 15:25:18,162 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 15:25:18,162 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 15:25:18,162 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 15:25:18,162 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 15:25:18,163 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,163 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,186 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,186 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,192 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,192 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,198 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,198 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,204 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,204 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,207 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,207 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,207 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,207 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,207 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,208 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,208 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,208 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,208 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,208 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 15:25:18,211 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,211 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,215 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,215 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,220 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,220 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,222 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,222 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 15:25:18,224 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 15:25:18,225 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,225 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,227 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,227 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 15:25:18,228 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 16:54:51,963 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 16:54:51,963 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 16:54:51,963 - Log4JLogChute initialized using file 'velocity.log'
+2019-07-17 16:54:51,968 - Initializing Velocity, Calling init()...
+2019-07-17 16:54:51,968 - Initializing Velocity, Calling init()...
+2019-07-17 16:54:51,968 - Initializing Velocity, Calling init()...
+2019-07-17 16:54:51,968 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 16:54:51,968 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 16:54:51,968 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-07-17 16:54:51,968 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 16:54:51,968 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 16:54:51,968 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-07-17 16:54:51,968 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-07-17 16:54:51,968 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-07-17 16:54:51,968 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: Could not initialize class org.apache.velocity.runtime.log.AvalonLogChute).  Falling back to next log system...
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-07-17 16:54:51,968 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,968 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,968 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,969 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 16:54:51,969 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 16:54:51,969 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 16:54:51,969 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-07-17 16:54:51,970 - Created '20' parsers.
+2019-07-17 16:54:51,970 - Created '20' parsers.
+2019-07-17 16:54:51,970 - Created '20' parsers.
+2019-07-17 16:54:51,970 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 16:54:51,970 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 16:54:51,970 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-07-17 16:54:51,971 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 16:54:51,971 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 16:54:51,971 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2019-07-17 16:54:51,971 - Velocimacro : Default library not found.
+2019-07-17 16:54:51,971 - Velocimacro : Default library not found.
+2019-07-17 16:54:51,971 - Velocimacro : Default library not found.
+2019-07-17 16:54:51,971 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 16:54:51,971 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 16:54:51,971 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 16:54:51,971 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-07-17 16:54:51,972 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 16:54:51,972 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 16:54:51,972 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-07-17 16:54:51,978 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,978 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,978 - ResourceManager : found /templates/jpa/jpa.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,999 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,999 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:51,999 - ResourceManager : found /templates/jpa/service_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,040 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,040 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,040 - ResourceManager : found /templates/jpa/serviceImpl_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,045 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,045 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,045 - ResourceManager : found /templates/jpa/controller_2.0.4.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,052 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,052 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,052 - ResourceManager : found /templates/jpa/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 64, column 26]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/jpa/entity.java.vm[line 68, column 30]
+2019-07-17 16:54:52,057 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,057 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,057 - ResourceManager : found /templates/jpa/query.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,061 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,061 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,061 - ResourceManager : found /templates/jpa/menu.sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,066 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,066 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,066 - ResourceManager : found /templates/vue/data.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,069 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,069 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,069 - ResourceManager : found /templates/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 24, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 33, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 41, column 79] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 16:54:52,071 - Null reference [template '/templates/vue/api.js.vm', line 48, column 86] : ${id} cannot be resolved.
+2019-07-17 16:54:52,072 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,072 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,072 - ResourceManager : found /templates/vue/index.scss.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,076 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,076 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,076 - ResourceManager : found /templates/vue/index.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 130, column 22] : $confirm cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 138, column 22] : $message cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
+2019-07-17 16:54:52,078 - Null reference [template '/templates/vue/index.vue.vm', line 146, column 26] : $message cannot be resolved.
